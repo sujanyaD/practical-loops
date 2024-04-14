@@ -28,16 +28,25 @@ function isPrime(num) {
             return false;
     }
     return true;
-
 }
-let n= 11;
-for (let j = n; j < j+1 ; j++) {
+// let n = 11;
+// for (let j = n; j < j + 1; j++) {
 
-    if (isPrime(j+1)){
-        console.log(j+1 + " is prime");
+//     if (isPrime(j + 1)) {
+//         console.log(j + 1 + " is prime");
+//         break;
+//     }
+
+// }
+let n = 11;
+let j= n;
+while ( j < j + 1) {
+
+    if (isPrime(j + 1)) {
+        console.log(j + 1 + " is prime");
         break;
     }
-        
+    j++;
 }
 
 
